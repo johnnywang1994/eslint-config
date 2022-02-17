@@ -2,6 +2,7 @@
 
 ## base
 
+- stylelint
 - stylelint-config-standard
 
 

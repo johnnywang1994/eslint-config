@@ -12,7 +12,6 @@
 - jsonc-eslint-parser
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
-- eslint-plugin-prettier
 
 
 ## framework

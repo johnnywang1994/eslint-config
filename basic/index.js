@@ -11,7 +11,8 @@ module.exports = {
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+      // eslint-import-resolver-node is default in [eslint-plugin-import]
+      node: { extensions: ['.jsx', '.js', '.mjs', '.tsx', '.ts'] },
     },
   },
   overrides: [

@@ -5,10 +5,20 @@ module.exports = {
   extends: [
     '../basic',
     'plugin:@typescript-eslint/recommended',
+    // https://www.npmjs.com/package/eslint-plugin-import
+    'plugin:import/typescript',
   ],
   overrides: basic.overrides,
+  settings: {
+    'import/resolver': {
+      // https://stackoverflow.com/a/63451047
+      typescript: {},
+    },
+  },
   rules: {
-    'import/named': 'off',
+    // TypeScript compilation already ensures that named imports exist in the referenced module
+    // below line was added by [plugin:import/typescript]
+    // 'import/named': 'off',
 
     // TS
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],

@@ -12,6 +12,7 @@
     "@typescript-eslint/parser": "^5.12.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-vue": "^8.4.1",
     "jsonc-eslint-parser": "^2.1.0"
